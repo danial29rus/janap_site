@@ -1,0 +1,28 @@
+.idea/
+.DS_Store
+.vscode/
+.python-version
+config.yml
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+node_modules/
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+config.yml
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# dist
+/dist/
