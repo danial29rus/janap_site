@@ -79,7 +79,19 @@ interface TextController {
   };
   contact: {
     title: string;
+    directContacts: {
+      title: string;
+      subtitle: string;
+      contacts: Array<{
+        type: string;
+        label: string;
+        value: string;
+        link: string;
+        icon: string;
+      }>;
+    };
     form: {
+      title: string;
       nameLabel: string;
       phoneLabel: string;
       emailLabel: string;
@@ -227,8 +239,36 @@ export const fallbackTexts: TextController = {
     ],
   },
   contact: {
-    title: "Контакты",
+    title: "Контакты и связь",
+    directContacts: {
+      title: "или свяжитесь со мной напрямую",
+      subtitle: "Ирина Миронова",
+      contacts: [
+        {
+          type: "phone",
+          label: "Телефон",
+          value: "+7 968 079 73 57",
+          link: "tel:+79680797357",
+          icon: "📞",
+        },
+        {
+          type: "telegram",
+          label: "Telegram",
+          value: "@visa_by_mironova",
+          link: "https://t.me/visa_by_mironova",
+          icon: "💬",
+        },
+        {
+          type: "whatsapp",
+          label: "WhatsApp",
+          value: "+7 968 079 73 57",
+          link: "https://api.whatsapp.com/send/?phone=79680797357&text&type=phone_number&app_absent=0",
+          icon: "📱",
+        },
+      ],
+    },
     form: {
+      title: "Заполните и отправьте форму",
       nameLabel: "Имя",
       phoneLabel: "Телефон",
       emailLabel: "Email",
