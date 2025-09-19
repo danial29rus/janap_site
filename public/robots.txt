@@ -1,0 +1,32 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://jpn-visa.ru/sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
+
+# Block common bot paths
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+Disallow: /*.json$
+Disallow: /*.git$
+
+# Allow important resources
+Allow: /favicon.ico
+Allow: /apple-touch-icon.png
+Allow: /web-app-manifest-*.png
+Allow: /site.webmanifest
+Allow: /images/
+
+# SEO optimizations
+User-agent: Googlebot
+Allow: /
+
+User-agent: Yandexbot  
+Allow: /
+
+User-agent: Bingbot
+Allow: /

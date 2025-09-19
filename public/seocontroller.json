@@ -1,0 +1,218 @@
+{
+  "meta": {
+    "title": "JPN Visa - Виза в Японию без стресса | Оформление японской визы",
+    "description": "⭐ Профессиональное оформление визы в Японию за 5-10 дней. Личное сопровождение, проверка документов, заполнение анкет. 1000+ успешных виз. Консультация бесплатно!",
+    "keywords": [
+      "виза в Японию",
+      "японская виза",
+      "оформление визы в Японию",
+      "консульство Японии",
+      "туристическая виза Япония",
+      "бизнес виза Япония",
+      "документы для визы в Японию",
+      "виза в Японию срочно",
+      "помощь с визой в Японию",
+      "мультивиза Япония",
+      "single entry виза",
+      "multiple entry виза"
+    ],
+    "author": "Ирина Миронова",
+    "siteName": "JPN Visa",
+    "siteUrl": "https://jpn-visa.ru",
+    "locale": "ru_RU",
+    "type": "website"
+  },
+  "openGraph": {
+    "title": "JPN Visa - Виза в Японию без стресса",
+    "description": "Профессиональное оформление визы в Японию за 5-10 дней. 1000+ успешных виз. Личное сопровождение и консультации.",
+    "image": {
+      "url": "/web-app-manifest-512x512.png",
+      "width": 512,
+      "height": 512,
+      "alt": "JPN Visa - Оформление визы в Японию"
+    },
+    "siteName": "JPN Visa",
+    "locale": "ru_RU"
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "site": "@jpnvisa",
+    "creator": "@jpnvisa",
+    "title": "JPN Visa - Виза в Японию без стресса",
+    "description": "Профессиональное оформление визы в Японию за 5-10 дней. 1000+ успешных виз.",
+    "image": "/web-app-manifest-512x512.png"
+  },
+  "jsonLd": {
+    "organization": {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "JPN Visa",
+      "description": "Профессиональное оформление визы в Японию",
+      "url": "https://jpn-visa.ru",
+      "logo": "https://jpn-visa.ru/web-app-manifest-512x512.png",
+      "founder": {
+        "@type": "Person",
+        "name": "Ирина Миронова",
+        "jobTitle": "Visa Expert"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer service",
+        "availableLanguage": ["Russian", "Japanese"],
+        "areaServed": "RU"
+      },
+      "sameAs": ["https://t.me/jpnvisa"]
+    },
+    "person": {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Ирина Миронова",
+      "jobTitle": "Visa Expert",
+      "description": "Эксперт по визам с опытом более 7 лет. Оформила 200+ виз в Японию.",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "JPN Visa"
+      },
+      "hasCredential": "7+ лет опыта, 200+ виз оформлено",
+      "knowsAbout": ["Visa Services", "Japan Travel", "Consular Services"]
+    },
+    "service": {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Оформление визы в Японию",
+      "description": "Профессиональное оформление туристических и бизнес виз в Японию с личным сопровождением",
+      "provider": {
+        "@type": "Organization",
+        "name": "JPN Visa"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "Russia"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Услуги по оформлению виз",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Туристическая виза (Single Entry)"
+            },
+            "price": "12000",
+            "priceCurrency": "RUB",
+            "description": "Однократная туристическая виза для поездки в Японию"
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Туристическая мультивиза (Multiple Entry)"
+            },
+            "price": "12000",
+            "priceCurrency": "RUB",
+            "description": "Многократная туристическая виза на 3 года"
+          }
+        ]
+      },
+      "serviceType": "Visa Services",
+      "category": "Travel Services"
+    },
+    "website": {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "JPN Visa",
+      "url": "https://jpn-visa.ru",
+      "description": "Профессиональное оформление визы в Японию без стресса",
+      "inLanguage": "ru",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://jpn-visa.ru/?search={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    },
+    "faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Сколько времени занимает оформление визы?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Обычно процесс занимает 5-10 рабочих дней с момента подачи документов в консульство. Срочное оформление возможно за 2-3 дня с доплатой."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Какие документы нужны для туристической визы?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Загранпаспорт (действующий не менее 6 месяцев), заполненная анкета, фото 3×4, справка с работы, выписка с банковского счета, бронь отеля и авиабилеты."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Что делать, если в визе откажут?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Отказы случаются редко при правильной подготовке документов. В случае отказа мы бесплатно проанализируем причины и поможем подать документы повторно с учетом замечаний."
+          }
+        }
+      ]
+    },
+    "breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Главная",
+          "item": "https://jpn-visa.ru"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Обо мне",
+          "item": "https://jpn-visa.ru#about"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Цены",
+          "item": "https://jpn-visa.ru#pricing"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Отзывы",
+          "item": "https://jpn-visa.ru#cases"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Контакты",
+          "item": "https://jpn-visa.ru#contact"
+        }
+      ]
+    }
+  },
+  "robots": {
+    "index": true,
+    "follow": true,
+    "noarchive": false,
+    "nosnippet": false,
+    "noimageindex": false,
+    "maxImagePreview": "large",
+    "maxSnippet": -1,
+    "maxVideoPreview": -1
+  },
+  "canonical": "https://jpn-visa.ru",
+  "alternates": [],
+  "verification": {
+    "google": "your-google-verification-code",
+    "yandex": "your-yandex-verification-code",
+    "bing": "your-bing-verification-code"
+  }
+}
