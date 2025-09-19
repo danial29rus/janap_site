@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  japan-visa-site:
+    build: .
+    ports:
+      - "3045:3045"
+    environment:
+      - NODE_ENV=production
+      - PORT=3045
+    restart: always
+    container_name: japan-visa-site

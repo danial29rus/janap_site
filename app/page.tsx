@@ -7,6 +7,7 @@ import { TopNav } from "@/components/navigation/top-nav";
 import { HeroSection } from "@/components/sections/hero-section";
 import { AboutSection } from "@/components/sections/about-section";
 import { PricingSection } from "@/components/sections/pricing-section";
+import { ProcessSection } from "@/components/sections/process-section";
 import { ReviewsSection } from "@/components/sections/reviews-section";
 import { ContactSection } from "@/components/sections/contact-section";
 import { FaqSection } from "@/components/sections/faq-section";
@@ -36,6 +37,7 @@ export default function Home() {
       { id: "hero", label: currentTexts.navigation.sections.hero },
       { id: "about", label: currentTexts.navigation.sections.about },
       { id: "pricing", label: currentTexts.navigation.sections.pricing },
+      { id: "process", label: "Процесс" },
       { id: "cases", label: currentTexts.navigation.sections.cases },
       { id: "contact", label: currentTexts.navigation.sections.contact },
     ],
@@ -54,9 +56,10 @@ export default function Home() {
         <HeroSection scrollToId={scrollToId} />
         <AboutSection scrollToId={scrollToId} />
         <PricingSection scrollToId={scrollToId} />
+        <ProcessSection />
         <ReviewsSection />
         <ContactSection />
-        <FaqSection />
+        {/* <FaqSection /> */}
         {/* <Footer /> */}
       </div>
     </>

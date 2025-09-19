@@ -27,10 +27,28 @@ export function AboutSection({ scrollToId }: AboutSectionProps) {
         </h2>
         <div className="mt-10 grid items-start gap-10 md:grid-cols-3">
           <div className="md:col-span-1">
-            <div
-              className="aspect-square w-full rounded-3xl bg-gradient-to-br from-rose-200 via-pink-200 to-rose-300 ring-1 ring-rose-200 shadow-2xl"
-              aria-label="Фото"
-            />
+            {/* Ваше реальное фото */}
+            <div className="relative">
+              <div className="aspect-square w-full rounded-3xl overflow-hidden shadow-2xl ring-2 ring-rose-200">
+                <img
+                  src="/images/irina-photo.jpg"
+                  alt="Ирина Миронова - эксперт по визам в Японию"
+                  className="w-full h-full object-cover"
+                  onError={(e) => {
+                    // Если изображение не загрузится, показываем градиент
+                    e.currentTarget.style.display = 'none';
+                    const parent = e.currentTarget.parentElement;
+                    if (parent) {
+                      parent.className = "aspect-square w-full rounded-3xl bg-gradient-to-br from-rose-200 via-pink-200 to-rose-300 ring-2 ring-rose-200 shadow-2xl flex items-center justify-center";
+                      parent.innerHTML = '<span class="text-rose-600 text-sm">Фото Ирины</span>';
+                    }
+                  }}
+                />
+              </div>
+              
+              {/* Декоративная рамка */}
+              <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-rose-200/20 via-transparent to-pink-200/20 pointer-events-none"></div>
+            </div>
           </div>
           <div className="md:col-span-2">
             <div className="rounded-3xl border border-rose-200 bg-white/90 p-8 shadow-xl backdrop-blur">
@@ -98,15 +116,10 @@ export function AboutSection({ scrollToId }: AboutSectionProps) {
                 </li>
               </ul>
 
-              <div className="mt-8 flex flex-wrap items-center gap-4">
-                <button
-                  onClick={() => scrollToId("pricing")}
-                  className="rounded-xl bg-gradient-to-r from-rose-500 to-pink-600 px-6 py-3 text-sm font-semibold text-white shadow hover:shadow-xl hover:scale-105 hover:from-rose-600 hover:to-pink-700 transition-all duration-300 ease-out"
-                >
-                  Посмотреть цены
-                </button>
-                <div className="ml-auto select-none text-right text-sm italic text-rose-600 font-semibold">
-                  Ирина Миронова, JPN Visa
+              {/* Убираем все кнопки - оставляем только подпись */}
+              <div className="mt-8 text-right">
+                <div className="text-sm italic text-rose-600 font-semibold">
+                  {/* Ирина Миронова, JPN Visa */}
                 </div>
               </div>
             </div>

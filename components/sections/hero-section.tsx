@@ -49,10 +49,14 @@ export function HeroSection({ scrollToId }: HeroSectionProps) {
           transition={{ duration: 0.7 }}
           className="max-w-3xl"
         >
+          {/* Убираем бейдж - закомментируем или удалим эти строки */}
+          {/* 
           <div className="inline-flex items-center gap-2 rounded-full bg-white/90 px-4 py-2 text-sm text-rose-600 ring-1 ring-rose-200 shadow">
             {currentTexts.hero.badge}
           </div>
-          <h1 className="mt-4 text-5xl font-bold tracking-tight text-neutral-900 md:text-7xl">
+          */}
+          
+          <h1 className="text-5xl font-bold tracking-tight text-neutral-900 md:text-7xl">
             {currentTexts.hero.title}
           </h1>
           <p className="mt-6 text-lg md:text-xl text-neutral-700 leading-relaxed">

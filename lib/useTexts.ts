@@ -144,9 +144,9 @@ export function useTexts() {
 // Fallback texts for SSG build
 export const fallbackTexts: TextController = {
   site: {
-    title: "JPN Visa - Виза в Японию без стресса",
+    title: "Japan Visa - Виза в Японию без стресса",
     description: "Профессиональное оформление визы в Японию",
-    brandName: "JPN Visa",
+    brandName: "Japan Visa",
   },
   navigation: {
     sections: {
@@ -160,7 +160,7 @@ export const fallbackTexts: TextController = {
     ctaButton: "Оформить визу",
   },
   hero: {
-    badge: "by Lev - personal brand",
+    badge: "by Irina Mironova - personal brand",
     title: "Виза в Японию без стресса",
     subtitle: "Традиционная эстетика, современный сервис",
     ctaPrimary: "Оставить заявку",
