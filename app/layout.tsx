@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { JsonLdSchemas } from "@/components/seo/json-ld";
+import { YandexMetrika } from "@/components/analytics/YandexMetrika";
 
 const inter = Inter({ subsets: ["latin", "cyrillic"] });
 
@@ -42,7 +43,10 @@ export default function RootLayout({
       <head>
         <JsonLdSchemas />
       </head>
-      <body className={`${inter.className} antialiased`}>{children}</body>
+      <body className={`${inter.className} antialiased`}>
+        {children}
+        <YandexMetrika />
+      </body>
     </html>
   );
 }
