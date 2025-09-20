@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://jpn-visa.ru/sitemap.xml
+Sitemap: https://visa-mironova.ru/sitemap.xml
 
 # Crawl-delay for respectful crawling
 Crawl-delay: 1

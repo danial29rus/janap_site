@@ -98,7 +98,7 @@ export const fallbackSEO: SEOController = {
     keywords: ["виза в Японию", "японская виза", "оформление визы"],
     author: "Ирина Миронова",
     siteName: "JPN Visa",
-    siteUrl: "https://jpn-visa.ru",
+    siteUrl: "https://visa-mironova.ru",
     locale: "ru_RU",
     type: "website",
   },
@@ -140,7 +140,7 @@ export const fallbackSEO: SEOController = {
     maxSnippet: -1,
     maxVideoPreview: -1,
   },
-  canonical: "https://jpn-visa.ru",
+  canonical: "https://visa-mironova.ru",
   alternates: [],
   verification: {
     google: "",
