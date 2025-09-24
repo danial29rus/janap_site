@@ -66,9 +66,9 @@ export function PricingSection({ scrollToId }: PricingSectionProps) {
                       {plan.details.map((detail, idx) => (
                         <li
                           key={idx}
-                          className="text-xs text-neutral-600 flex items-start gap-2"
+                          className="text-xs text-neutral-600 flex items-center gap-2"
                         >
-                          <span className="text-rose-500 mt-1">•</span>
+                          <span className="text-rose-500">•</span>
                           <span>{detail}</span>
                         </li>
                       ))}
@@ -85,9 +85,9 @@ export function PricingSection({ scrollToId }: PricingSectionProps) {
                       {plan.suitableFor.map((item, idx) => (
                         <li
                           key={idx}
-                          className="text-xs text-neutral-600 flex items-start gap-2"
+                          className="text-xs text-neutral-600 flex items-center gap-2"
                         >
-                          <span className="text-green-500 mt-1">–</span>
+                          <span className="text-green-500">–</span>
                           <span>{item}</span>
                         </li>
                       ))}

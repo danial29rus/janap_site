@@ -187,7 +187,7 @@ export const fallbackTexts: TextController = {
       { title: "99,9% успеха:", description: "высокий процент одобрения" },
     ],
     ctaButton: "Посмотреть цены",
-    signature: "Ирина Миронова, JPN Visa",
+    signature: "Ирина Миронова",
   },
   pricing: {
     title: "Какие визы я оформляю",
@@ -241,8 +241,8 @@ export const fallbackTexts: TextController = {
   contact: {
     title: "Контакты и связь",
     directContacts: {
-      title: "или свяжитесь со мной напрямую",
-      subtitle: "Ирина Миронова",
+      title: "Ирина Миронова",
+      subtitle: "",
       contacts: [
         {
           type: "phone",

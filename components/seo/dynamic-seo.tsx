@@ -100,7 +100,7 @@ export function DynamicSEO() {
       {/* Business Information */}
       <meta name="business:contact_data:locality" content="Moscow" />
       <meta name="business:contact_data:country_name" content="Russia" />
-      <meta name="business:contact_data:email" content="info@jpn-visa.ru" />
+      {/* <meta name="business:contact_data:email" content="info@jpn-visa.ru" /> */}
 
       {/* Content Classification */}
       <meta name="rating" content="general" />
