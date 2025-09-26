@@ -3,7 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { JsonLdSchemas } from "@/components/seo/json-ld";
 import { YandexMetrika } from "@/components/analytics/YandexMetrika";
-
+import { TopMailRu } from "@/components/analytics/TopMailRu";
 const inter = Inter({ subsets: ["latin", "cyrillic"] });
 
 // SEO data is now managed by seocontroller.json and useSEO hook
@@ -46,6 +46,7 @@ export default function RootLayout({
       <body className={`${inter.className} antialiased`}>
         {children}
         <YandexMetrika />
+        <TopMailRu />
       </body>
     </html>
   );
